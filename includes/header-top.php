@@ -1,4 +1,4 @@
-<section class="section section_padding">
+<section class="section section_padding db-section_view-header">
 	<div class=" container">
 		<div class="row">
 			<div class="col-md-6">
@@ -12,7 +12,7 @@
 				</p>
 				<p class="db-header-p2">
 					<span>+7 (812) 389-38-86</span><br>
-					Пн-Вс 10.00 - 21.00
+					<span>Пн-Вс 10.00 - 21.00</span>
 				</p>
 					<div class="clearfix"></div>
 			</div>
