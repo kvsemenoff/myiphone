@@ -6,13 +6,15 @@
 			</div>
 			<div class="col-md-6">
 				<p class="db-header-p1">
-					м. Мояковская, <br>
-					Невский пр. 65 5 этаж
+					<span>м. Мояковская, <br>
+						Невский пр. 65 5 этаж</span>
+
 				</p>
 				<p class="db-header-p2">
 					<span>+7 (812) 389-38-86</span><br>
 					Пн-Вс 10.00 - 21.00
 				</p>
+					<div class="clearfix"></div>
 			</div>
 		</div>
 	</div>
