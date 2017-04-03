@@ -1,0 +1,83 @@
+.clear {
+  clear: both; }
+
+.dfsection_padding {
+  padding: 30px 0 30px; }
+
+.dfsale__view {
+  max-width: 1070px;
+  margin: 0 auto;
+  text-align: center; }
+
+.dfsale_caption__view {
+  color: #3092a0;
+  font-family: "Gilroy-ExtraBold";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 45px;
+  background-image: url("../img/capbg.png");
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.dfsale_boxtel__view {
+  max-width: 259px;
+  width: 100%;
+  display: inline-block;
+  position: relative;
+  margin-bottom: 20px; }
+
+.dfsale_img__view {
+  text-align: center; }
+  .dfsale_img__view img {
+    max-width: 100%;
+    height: auto; }
+
+.dfborder__view {
+  width: 25px;
+  height: 2px;
+  background-color: #57daed;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 19px;
+  margin-top: -19px; }
+
+.dfsale_name__view {
+  color: #636363;
+  font-family: "Gilroy-ExtraBold";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+  display: block;
+  text-align: center; }
+
+@media only screen and (min-width: 992px) {
+  .dfsection_padding {
+    padding: 70px 0 90px; }
+
+  .dfsale_caption__view {
+    margin-bottom: 45px; }
+
+  .dfsale_boxtel__view {
+    margin-bottom: 0px; }
+    .dfsale_boxtel__view:after {
+      content: "";
+      position: absolute;
+      top: 50px;
+      right: 0;
+      border-right: 1px solid #ececec;
+      width: 1px;
+      height: 180px; }
+
+  .dfsale_boxtel__view:last-child:after {
+    position: unset;
+    top: 0px;
+    right: 0;
+    border: none;
+    width: 0px;
+    height: 0px; } }
+
+/*# sourceMappingURL=style-df.css.map */
