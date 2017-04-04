@@ -13,8 +13,8 @@
 								<div id="DateCountdown" data-timer="9000"></div>						
 							<!-- end time -->
 
-							<form action="" class="js-form">
-								<input type="text" name="uname" placeholder="Ваше имя" class="dfheadbot_nameinp dfheadbot_nameinp__view">
+							<form action="" class="js-submit" method="post">
+								<input type="text" name="uname" required="true" placeholder="Ваше имя" class="dfheadbot_nameinp dfheadbot_nameinp__view">
 								<input type="tel" name="phone" placeholder="Ваш телефон" class="js-phone dfheadbot_telinp dfheadbot_telinp__view">
 								<input type="submit" value="ОТПРАВИТЬ" class="dfheadbot_submitinp dfheadbot_submitinp__view">
 							</form>
@@ -34,7 +34,7 @@
 						<div class="dfheadbot_newprice dfheadbot_newprice__view">
 							<span class="dfheadbot_newpricetxt dfheadbot_newpricetxt__view">НОВАЯ ЦЕНА <br> <b>21 990Р</b></span>
 						</div>
-						<a href="#" class="dfheadbot_linkbuy dfheadbot_linkbuy__view">ЗАКАЗАТЬ</a>				
+						<a href="#js-form1" name="js-modal" class="dfheadbot_linkbuy dfheadbot_linkbuy__view">ЗАКАЗАТЬ</a>				
 					</div>
 
 					<div class="dfheadbot_telbox dfheadbot_telbox__view">
@@ -44,7 +44,7 @@
 						<div class="dfheadbot_newprice dfheadbot_newprice__view">
 							<span class="dfheadbot_newpricetxt dfheadbot_newpricetxt__view">НОВАЯ ЦЕНА <br> <b>21 990Р</b></span>
 						</div>
-						<a href="#" class="dfheadbot_linkbuy dfheadbot_linkbuy__view">ЗАКАЗАТЬ</a>				
+						<a href="#js-form1" name="js-modal" class="dfheadbot_linkbuy dfheadbot_linkbuy__view">ЗАКАЗАТЬ</a>				
 					</div>
 					
 					<div class="dfheadbot_orcall dfheadbot_orcall__view">

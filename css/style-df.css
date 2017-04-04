@@ -101,7 +101,8 @@
   background-image: url("../img/db-one.png");
   background-repeat: no-repeat;
   background-position: left 10px center;
-  padding-left: 35px; }
+  padding-left: 35px;
+  outline: none; }
 
 .dfheadbot_telinp__view {
   background-image: url("../img/db-two.png");
