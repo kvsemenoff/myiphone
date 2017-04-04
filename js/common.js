@@ -1,13 +1,24 @@
 
 
 $(document).ready(function(){
+
+
   $('.js-phone').mask("+7 (999) 999 - 99 - 99?");
+
+   
 
    $('a[name="js-modal"]').on("click", function(e){
         e.preventDefault();
         var  id = $(this).attr('href'),
         winW = $(window).width(),
         winH = $(window).height();
+        
+        // var  $this = $(this),
+        // $namephone = $this.parents('.dftelephoneblock').find('.dfactivelink').html(),
+        // $price = $this.parents('.dftelephoneblock').find('.dfbigprice').html();
+        // $('input[name="namephone"]').val($namephone);
+        // $('input[name="price"]').val($price);
+
         $(id).css("left", winW/2-$(id).width()/2);
         $(id).css("top", winH/2-$(id).height()/2);
         $('body').css("overflow-y", "hidden");

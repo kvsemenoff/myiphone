@@ -29,6 +29,8 @@
 					<input type="text" name="uname" placeholder="Ваше имя" class="input_view input_view__name db-input1"><br><br>
 					<input type="text" name="phone" placeholder="Ваш телефон" class="js-phone input_view  db-input2 input_view__phone"><br><br>
 					<input type="submit" name="submit" value="заказать" class="button_view db-submit">
+					<input type="hidden" name="namephone" value="">
+					<input type="hidden" name="price" value="">
 				</form>
 			</div>
 			<div class="js-window" id="js-form2">
