@@ -1,4 +1,4 @@
-<div class="section section_padding dfbgheaderbot">
+<div class="section section_padding__view ">
 <div class=" container">
 	<div class="row">
 		<div class="col-md-12">
