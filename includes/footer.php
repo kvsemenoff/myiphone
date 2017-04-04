@@ -5,7 +5,21 @@
 			<div class="col-md-6 padding_no">
 				<div class="dd-left">
 					<span>Выберите свой <br>подарок</span>
+
+					<div class="div-fl">
+						<div class="dd-img-box">
+							<img src="img/f1.png" alt="">
+						</div>
+						<div class="dd-img-box">
+							<img src="img/f2.png" alt="">
+						</div>
+						<div class="dd-img-box">
+							<img src="img/f3.png" alt="">
+						</div>
+					</div>
+					<div class="clearfix"></div>
 				</div>
+
 				<!-- <img class="img-responsive" src="img/bl2.jpg" alt=""> -->
 			</div>
 			<div class="col-md-6 padding_no_2">

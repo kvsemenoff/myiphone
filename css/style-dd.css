@@ -1,9 +1,9 @@
 .dd-left {
-  background: url(../img/bl.jpg) no-repeat top center;
+  background: url(../img/mb.jpg) no-repeat top center;
   background-size: cover;
   text-align: center;
   padding-top: 69px;
-  padding-bottom: 416px; }
+  padding-bottom: 50px; }
   .dd-left span {
     text-shadow: 0 9px 16px rgba(214, 214, 214, 0.6);
     color: white;
@@ -11,6 +11,11 @@
     font-size: 35px;
     text-transform: uppercase;
     font-family: "Gilroy-ExtraBold"; }
+
+.dd-img-box {
+  text-align: center;
+  margin-bottom: 25px;
+  margin-top: 50px; }
 
 .dd-right {
   background: url(../img/bw2.jpg) no-repeat left center;
@@ -58,5 +63,24 @@
   outline: none;
   border: none;
   border-radius: 25px; }
+
+@media only screen and (min-width: 768px) {
+  .dd-img-box {
+    float: left;
+    margin-right: 10px; }
+
+  .div-fl {
+    width: 470px;
+    margin: 0 auto; } }
+@media only screen and (min-width: 992px) {
+  .div-fl {
+    display: none; }
+
+  .dd-left {
+    background: url(../img/bl.jpg) no-repeat top right -20px;
+    height: 446px; } }
+@media only screen and (min-width: 1248px) {
+  .dd-left {
+    background: url(../img/bl.jpg) no-repeat top center; } }
 
 /*# sourceMappingURL=style-dd.css.map */
