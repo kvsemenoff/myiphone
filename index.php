@@ -16,6 +16,8 @@
 <script type="text/javascript" src="js/jquery.mousewheel.js"></script>
 <script src="js/responsiveTabs.js"></script>
 <script src="js/jquery.maskedinput.min.js"></script>
+<script src="js/kinetic.js"></script>
+<script src="js/jquery.final-countdown.min.js"></script>
 <script src="js/common.js"></script>
 
 
