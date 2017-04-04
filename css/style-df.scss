@@ -69,9 +69,10 @@
 
 }
 .dfheadbot_leftbox__view{
-	max-width: 300px;
+	max-width: 325px;
 	width: 100%;
 	display: inline-block;
+	margin-top: 10px;
 }
 .dfheadbot_imgbox__view{
 	position: relative;
@@ -82,8 +83,8 @@
 }
 .dfheadbot_absolut__view{
 	position: absolute;
-	top:65px;
-	left: 25px;
+	top: 70px;
+    left: 35px;
 	max-width: 250px;
 	width: 100%;
 	display: block;
@@ -142,16 +143,16 @@
 	line-height: 24px;
 	display: block;	
 	text-align: center;
-	margin-top: -20px;
+	margin-top: -11px;
 }
 
 
 .dfheadbot_rightbox__view{
-	max-width: 595px;
+	max-width: 595px;//595
 	width: 100%;
 	display: inline-block;
 	vertical-align: top;
-	margin-left: 80px;
+	margin-left: 73px;
 	position: relative;
 }
 .dfheadbot_sale__view{
@@ -181,8 +182,8 @@
 	line-height: 24px;	
 	color: #4c4b4b;
 	font-weight: 300;	
-	display: inline-block;
-	margin-bottom: 70px;
+	display: inline-block;	
+    margin: 15px 0 72px 0;
 	b{
 		color: #dc0354;
 		font-weight: 700;	
@@ -194,12 +195,13 @@
 
 .dfheadbot_telbox__view{
 	font-family: "Gilroy-ExtraBold";
-	max-width: 224px;
+	max-width: 225px;
 	width: 100%;
 	display: inline-block;
 	background-image: url("../img/dfimgbg.png");
 	background-repeat: no-repeat;
 	background-position: top center;
+	background-size: cover;
 	-webkit-box-shadow: 0px 3px 20px -2px rgba(0,0,0,0.39);
 	-moz-box-shadow: 0px 3px 20px -2px rgba(0,0,0,0.39);
 	box-shadow: 0px 3px 20px -2px rgba(0,0,0,0.39);
@@ -207,7 +209,7 @@
 	position: relative;
 }
 .dfheadbot_telbox__mr{
-	margin-right: 140px;
+	margin-right: 111px;
 }
 .dfheadbot_img__view{
 	text-align: center;
@@ -215,7 +217,7 @@
 		max-width: 100%;
 		height: auto;
 		display: inline-block;
-		margin-top: -25px;
+		margin-top: -40px;
 	}
 }
 .dfheadbot_name__view{
@@ -224,7 +226,7 @@
 	font-weight: 700;
 	line-height: 24px;
 	text-transform: uppercase;
-	margin: 10px 0px 0 45px;
+	margin: 14px 0px 0 25px;
 }
 .dfheadbot_oldprice__view{
 	color: #6f6f6f;	
@@ -245,8 +247,8 @@
 	background-color: #dc0354;
 	width: 160px;
 	margin: 0 auto;
-    text-align: center;
-    padding: 7px 0;
+    text-align: left;
+    padding: 7px 0 7px 20px;
     margin-bottom: 40px;
 }
 .dfheadbot_newpricetxt__view{
@@ -282,9 +284,8 @@
 	text-align: center;
 	// margin-top: 20px;
 	position: absolute;
-	bottom: -24px;
-    left: 52px;
-
+	    bottom: -27px;
+    left: 47px;
 }
 
 .dfheadbot_orcall__view{
@@ -293,8 +294,8 @@
 	text-align: center;
 	font-family: "Gilroy-ExtraBold";	
 	position: absolute;
-	bottom: -40px;
-    left: 35%;
+	bottom: -68px;
+    left: 31%;
     z-index: 10;
 }
 .dfheadbot_orcall_txt__view{
@@ -311,6 +312,10 @@
 	text-transform: uppercase;
 	display: inline-block;
 }
+
+/*clocks*/
+
+
 @media only screen and (min-width : 320px) {
 }
 

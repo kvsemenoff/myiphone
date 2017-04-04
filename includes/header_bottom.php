@@ -3,7 +3,6 @@
 	<div class="row">
 		<div class="col-md-12">
 			<div class="dfheadbot dfheadbot_view">
-
 				<div class="dfheadbot_leftbox dfheadbot_leftbox__view">
 					<div class="dfheadbot_imgbox dfheadbot_imgbox__view">
 						<img src="img/dfimg1.png" alt="">
@@ -12,45 +11,7 @@
 							<h3 class="dfheadbot_caption dfheadbot_caption__view">Предложение заканчивается</h3>
 							<!-- time -->
 								
-								<!-- hours --> 
-
-								<div class="clock-item clock-hours countdown-time-value col-sm-6 col-md-3">
-									<div class="wrap">
-										<div class="inner">
-											<div id="canvas_hours" class="clock-canvas"></div>
-											<div class="text">
-												<p class="val">0</p>
-												<p class="type-hours type-time">HOURS</p>
-											</div>
-										</div>
-									</div>
-								</div>
-
-								<!-- minutes --> 
-								<div class="clock-item clock-minutes countdown-time-value col-sm-6 col-md-3">
-									<div class="wrap">
-										<div class="inner">
-											<div id="canvas_minutes" class="clock-canvas"></div>
-											<div class="text">
-												<p class="val">0</p>
-												<p class="type-minutes type-time">MINUTES</p>
-											</div>
-										</div>
-									</div>
-								</div>
-
-								<!-- seconds --> 
-								<div class="clock-item clock-seconds countdown-time-value col-sm-6 col-md-3">
-									<div class="wrap">
-										<div class="inner">
-											<div id="canvas_seconds" class="clock-canvas"></div>
-											<div class="text">
-												<p class="val">0</p>
-												<p class="type-seconds type-time">SECONDS</p>
-											</div>
-										</div>
-									</div>
-								</div>
+						
 							<!-- end time -->
 
 							<form action="" class="js-form">
@@ -62,7 +23,6 @@
 						<span class="dfheadbot_textbottom dfheadbot_textbottom__view">Все цвета в наличии!</span>
 					</div>
 				</div>
-
 				<div class="dfheadbot_rightbox dfheadbot_rightbox__view">
 					<h2 class="dfheadbot_sale dfheadbot_sale__view">АКЦИЯ!</h2>
 					<h2 class="dfheadbot_salebottom dfheadbot_salebottom__view">Распродажа <b>Iphone 6</b></h2>
