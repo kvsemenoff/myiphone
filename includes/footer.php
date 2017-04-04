@@ -1,4 +1,4 @@
-<section class="section section_padding">
+<section >
 	<div class=" container">
 
 		<div class="row">
