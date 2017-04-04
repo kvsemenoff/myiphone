@@ -301,13 +301,14 @@
   margin: 0;
   padding: 0;
   text-align: center;
-  text-transform: uppercase;
+  font-size: 9px !important;
   font-family: "Gilroy-Light";
   line-height: 1; }
 
 .time_circles > div > span {
   margin: 0;
   padding: 0;
+  font-size: 18px !important;
   display: block;
   width: 100%;
   text-align: center;
