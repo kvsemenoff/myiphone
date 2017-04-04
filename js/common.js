@@ -3,7 +3,7 @@
 $(document).ready(function(){
 
 
-  $('.js-phone').mask("+7 (999) 999 - 99 - 99?");
+  $('.js-phone').mask("+7(999)999-99-99?");
 
    
 
@@ -78,7 +78,22 @@ $(document).ready(function(){
             };
 
 
- 
+
+    $("#DateCountdown").TimeCircles({
+        circle_bg_color: "none",
+        use_background: false,        
+        fg_width: 0.03,
+        number_size: 0.25,
+        time: {
+        Days: { color: "none" , show:false },
+        Hours: { color: "#e94f8d" , text: "Часа"},
+        Minutes: { color: "#efd920" , text: "Минут"},
+        Seconds: { color: "#b6d06f" , text: "Секунд"}
+    }
+
+
+    });
+        
      
 
  });

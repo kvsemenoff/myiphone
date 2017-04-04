@@ -10,13 +10,12 @@
 						<div class="dfheadbot_absolut dfheadbot_absolut__view">
 							<h3 class="dfheadbot_caption dfheadbot_caption__view">Предложение заканчивается</h3>
 							<!-- time -->
-								
-						
+								<div id="DateCountdown" data-timer="9000"></div>						
 							<!-- end time -->
 
 							<form action="" class="js-form">
-								<input type="text" name="uname" class="dfheadbot_nameinp dfheadbot_nameinp__view">
-								<input type="tel" name="phone" class="phone dfheadbot_telinp dfheadbot_telinp__view">
+								<input type="text" name="uname" placeholder="Ваше имя" class="dfheadbot_nameinp dfheadbot_nameinp__view">
+								<input type="tel" name="phone" placeholder="Ваш телефон" class="js-phone dfheadbot_telinp dfheadbot_telinp__view">
 								<input type="submit" value="ОТПРАВИТЬ" class="dfheadbot_submitinp dfheadbot_submitinp__view">
 							</form>
 						</div>
@@ -53,9 +52,7 @@
 						<span class="dfheadbot_orcall_tel dfheadbot_orcall_tel__view">+7 (812) 389-39-26</span>
 					</div>
 					
-				</div>
-
-				
+				</div>			
 
 			</div>
 		</div>
