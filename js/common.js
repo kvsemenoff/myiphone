@@ -11,8 +11,11 @@ $(document).ready(function(){
         e.preventDefault();
         var  id = $(this).attr('href'),
         winW = $(window).width(),
-        winH = $(window).height();
-        
+        winH = $(window).height();  
+
+          var gift = $('.dfactive').attr('data-name');
+        $('input[name="gift"]').val(gift);      
+
         var  $this = $(this),
         $namephone = $this.parents('.dfheadbot_telbox').find('.dfheadbot_name').html(),
         $price = $this.parents('.dfheadbot_telbox').find('.dfheadbot_newpricetxt b').html();
@@ -124,7 +127,13 @@ $(document).ready(function(){
         }
     }); 
         
-     
+     $('.div-fl .dd-img-box').on('click', function(){
+        $('.dd-img-box').removeClass('dfactive');
+        $(this).addClass('dfactive');
+         var gift = $('.dfactive').attr('data-name');
+        $('input[name="gift"]').val(gift);
+       
+     });
 
  });
 

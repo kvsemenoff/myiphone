@@ -8,13 +8,13 @@
 					<span>Выберите свой <br>подарок</span>
 
 					<div class="div-fl">
-						<div class="dd-img-box">
+						<div class="dd-img-box dfactive" data-name="Подарок-1">
 							<img src="img/f1.png" alt="">
 						</div>
-						<div class="dd-img-box">
+						<div class="dd-img-box" data-name="Подарок-2">
 							<img src="img/f2.png" alt="">
 						</div>
-						<div class="dd-img-box">
+						<div class="dd-img-box" data-name="Подарок-3">
 							<img src="img/f3.png" alt="">
 						</div>
 					</div>
@@ -41,6 +41,8 @@
 							</div>
 							<input type="hidden" name="namephone" value="">
 							<input type="hidden" name="price" value="">
+
+							<input type="hidden" name="gift" value="">
 						</form>
 
 					</div>

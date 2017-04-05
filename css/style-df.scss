@@ -378,6 +378,11 @@ html, body{
     margin: 0 auto;
     overflow: hidden;
 }
+.dfactive{
+	border: 2px solid grey;
+	border-radius: 10px;
+}
+
 @media only screen and (min-width : 320px) {
 	.dfheadbot_absolut__view{	
 	    left: 35px;		

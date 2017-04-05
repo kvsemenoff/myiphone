@@ -4,6 +4,7 @@ $phone = $_POST['phone'];
 $uname = $_POST['uname'];
 $name_phone = $_POST['namephone'];
 $price = $_POST['price'];
+$gift = $_POST['gift'];
 
 // Формирование заголовка письма
 $subject  = "Новое сообщение";
@@ -19,6 +20,7 @@ $msg .= "<p><strong>Телефон:</strong> ".$phone."</p>\r\n";
 if(!empty($name_phone) && !empty($price)){
 	$msg .= "<p><strong>Имя телефона:</strong> ".$name_phone."</p>\r\n";
 	$msg .= "<p><strong>Цена:</strong> ".$price."</p>\r\n";	
+	$msg .= "<p><strong>Подарок:</strong> ".$gift."</p>\r\n";	
 }
 $msg .= "</body></html>";
 
