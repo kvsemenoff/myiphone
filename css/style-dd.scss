@@ -88,7 +88,7 @@
 @media only screen and (min-width : 768px) {
 	.dd-img-box{
 		float: left;
-		margin-right: 10px;
+		margin-right: 22px;
 	}
 	.div-fl{
 		width: 470px;
@@ -97,19 +97,15 @@
 }
 
 @media only screen and (min-width : 992px) {
-	.div-fl{
-		display: none;
-	}
+	// .div-fl{
+	// 	display: none;
+	// }
 	.dd-left{
-		background:url(../img/bl.jpg) no-repeat top right -20px;
+		// background:url(../img/bl.jpg) no-repeat top right -20px;
 		height: 446px;
 	}
 }
 
 @media only screen and (min-width : 1248px) {
-	.dd-left{
-		background:url(../img/bl.jpg) no-repeat top center
-		
-	}
 }
 
