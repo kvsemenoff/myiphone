@@ -17,7 +17,7 @@ $msg  = "<html><body>";
 $msg .= "<h2>Новое сообщение</h2>\r\n";
 $msg .= "<p><strong>Имя:</strong> ".$uname."</p>\r\n";
 $msg .= "<p><strong>Телефон:</strong> ".$phone."</p>\r\n";
-if(!empty($name_phone) && !empty($price)){
+if(!empty($name_phone) && !empty($price) && !empty($gift)){
 	$msg .= "<p><strong>Имя телефона:</strong> ".$name_phone."</p>\r\n";
 	$msg .= "<p><strong>Цена:</strong> ".$price."</p>\r\n";	
 	$msg .= "<p><strong>Подарок:</strong> ".$gift."</p>\r\n";	
