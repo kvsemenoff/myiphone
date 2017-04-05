@@ -1,4 +1,4 @@
-<section class="section dfsection_padding">
+<div class="section dfsection_padding">
 	<div class=" container">
 		<div class="row">
 			<div class="dfsale dfsale__view">
@@ -34,4 +34,4 @@
 			</div>
 		</div>
 	</div>
-</section>
+</div>
