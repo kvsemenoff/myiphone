@@ -41,7 +41,8 @@
     height: 50px;
     margin: 0 auto;
     border: 3px solid #a2a2a2;
-    border-radius: 25px;
+    -webkit-border-radius: 25px;
+            border-radius: 25px;
     padding-left: 50px;
     color: #737373;
     font-family: "Gilroy-ExtraBold";
@@ -56,31 +57,31 @@
   width: 167px;
   height: 48px;
   background-color: #4fdadc;
-  box-shadow: 0 9px 16px 2px #d6d6d6;
+  -webkit-box-shadow: 0 9px 16px 2px #d6d6d6;
+          box-shadow: 0 9px 16px 2px #d6d6d6;
   text-transform: uppercase;
   color: white;
   font-family: "Gilroy-ExtraBold";
   outline: none;
   border: none;
-  border-radius: 25px; }
+  -webkit-border-radius: 25px;
+          border-radius: 25px; }
 
 @media only screen and (min-width: 768px) {
   .dd-img-box {
     float: left;
     margin-right: 10px; }
-
   .div-fl {
     width: 470px;
     margin: 0 auto; } }
+
 @media only screen and (min-width: 992px) {
   .div-fl {
     display: none; }
-
   .dd-left {
     background: url(../img/bl.jpg) no-repeat top right -20px;
     height: 446px; } }
+
 @media only screen and (min-width: 1248px) {
   .dd-left {
     background: url(../img/bl.jpg) no-repeat top center; } }
-
-/*# sourceMappingURL=style-dd.css.map */

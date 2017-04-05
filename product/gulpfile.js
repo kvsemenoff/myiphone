@@ -1,4 +1,4 @@
-﻿//файлы css-файлов
+//файлы css-файлов
 var css_files = new Array(
 	'css/*.css',
 	'libs/bootstrap/bootstrap-grid-3.3.1.min.css',
