@@ -60,6 +60,7 @@
 	left: 0;
 	background: #fff;
 	// padding: 10px;
+	height: 100%;
 	text-align: center;
 	display: none;
 	// max-width: 350px;
@@ -68,8 +69,8 @@
 	overflow-x:hidden;
 }
 #js-form1::-webkit-scrollbar { width: 0; }
-#js-form1 { -ms-overflow-style: none; }
-#js-form1 { overflow: -moz-scrollbars-none; }
+#js-form1{ -ms-overflow-style: none; }
+#js-form1{ overflow: -moz-scrollbars-none; }
 
 #js-form2{
 	z-index: 1000;
