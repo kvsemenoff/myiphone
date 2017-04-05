@@ -31,7 +31,7 @@
 
 						<form class="js-submit" action="#" method="post">
 							<div class="dd-inputs">
-								<input class="dd-name" type="text" name="uname" placeholder="Ваше имя">
+								<input class="dd-name" type="text" name="uname" placeholder="Ваше имя" required="required">
 							</div>
 							<div class="dd-inputs">
 								<input class="js-phone dd-phone" type="text" name="phone" placeholder="Ваше телефон">
