@@ -7,7 +7,7 @@ $(document).ready(function(){
 
    
 
-   $('a[name="js-modal"]').on("click", function(e){
+   $('a[data-name="js-modal"]').on("click", function(e){
         e.preventDefault();
         var  id = $(this).attr('href'),
         winW = $(window).width(),
