@@ -3,8 +3,8 @@
 }
 
 html, body{
-	background:-webkit-linear-gradient(bottom, #f4f4f4, #fbfbfb);
-	background:linear-gradient(to top, #f4f4f4, #fbfbfb);
+	background:-webkit-linear-gradient(top,  #fbfbfb, #f4f4f4);
+	background:linear-gradient(to bottom, #fbfbfb, #f4f4f4);
 }
 
 .dfsection_padding{
@@ -142,7 +142,7 @@ html, body{
 	font-family: "Gilroy-Light";
 	font-size: 18px;
 	font-weight: 300;
-	line-height: 24px;
+	line-height: 0px;
 	display: block;	
 	text-align: center;
 	margin-top: -11px;
@@ -207,10 +207,10 @@ html, body{
 	background-image: url("../img/dfimgbg.png");
 	background-repeat: no-repeat;
 	background-position: top center;
-	background-size: cover;
-	-webkit-box-shadow: 0px 3px 20px -2px rgba(0,0,0,0.39);
-	-moz-box-shadow: 0px 3px 20px -2px rgba(0,0,0,0.39);
-	box-shadow: 0px 3px 20px -2px rgba(0,0,0,0.39);
+	background-size: cover;	
+	-webkit-box-shadow: 0 4px 100.6px 12.4px #e1e1e1;
+	-moz-box-shadow: 0 4px 100.6px 12.4px #e1e1e1;
+	box-shadow: 0 4px 100.6px 12.4px #e1e1e1;
 	border-radius: 13px;
 	position: relative;
 }
@@ -298,6 +298,8 @@ html, body{
 	text-align: center;
 	font-family: "Gilroy-ExtraBold";	
 	margin: 50px auto;
+	padding: 3px 0;
+	box-shadow: 0 4px 7.1px 0.9px rgba(225, 225, 225, 0.38);
 }
 .dfheadbot_orcall_txt__view{
 	color: #858585;	
@@ -348,6 +350,30 @@ html, body{
     font-weight: bold;
 }
 
+.owl-carousel .owl-item img {
+	width: unset;
+	display: inline-block;
+}
+
+.df-left, .df-right{
+	position: absolute;
+	top:40%;
+	width: 15px;
+	height: 52px;
+	background-image: url("../img/left1.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.df-left{
+	left: 30px;
+}
+.df-right{
+	right: 30px;
+	background-image: url("../img/right1.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
 @media only screen and (min-width : 320px) {
 	.dfheadbot_absolut__view{	
 	    left: 35px;		
@@ -380,7 +406,7 @@ html, body{
 			height: 180px; 
 		}
 	}
-	.dfsale_boxtel__view:last-child{
+	.dfsale_boxtel__lastitem{
 		&:after{		
 			position:unset;
 			top: 0px;
@@ -411,6 +437,12 @@ html, body{
 	    left: 31%;
 	    z-index: 10;
 	    margin: 0 auto;
+	}
+	.df-left{
+		left: 0px;
+	}
+	.df-right{
+		right: 0px;		
 	}
 
 }

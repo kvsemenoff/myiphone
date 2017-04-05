@@ -90,9 +90,39 @@ $(document).ready(function(){
         Minutes: { color: "#efd920" , text: "Минут"},
         Seconds: { color: "#b6d06f" , text: "Секунд"}
     }
-
-
     });
+
+
+    var owl2 = $("#dfslider");
+    owl2.owlCarousel({
+        loop:true,
+        nav:true, 
+        autoplay:false,
+        smartSpeed:1000,
+        margin:0,
+        mouseDrag:false,
+        touchDrag: false,
+        center:false,     //если нужны обрезаные края
+        navText:['<span class="df-left"></span>','<span class="df-right"></span>'],
+        responsive:{
+              0:{
+                items:1
+            },
+            480:{
+                items:2 
+            },
+            750:{
+                items:3 
+            },
+            990:{
+                items:4
+            },      
+
+            1248:{
+                items:4
+            }
+        }
+    }); 
         
      
 
