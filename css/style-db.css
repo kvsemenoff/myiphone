@@ -1,6 +1,5 @@
 .db-section_view-header {
-  text-align: center;
-  background: #fcfcfc; }
+  text-align: center; }
 
 .db-header-p1:before {
   background: url("../img/db-little.png") no-repeat;
@@ -95,8 +94,7 @@
   font-family: "Gilroy-ExtraBold";
   font-size: 16px;
   padding: 10px 0;
-  -webkit-border-radius: 23px;
-          border-radius: 23px;
+  border-radius: 23px;
   outline: none;
   color: #a2a2a2;
   padding-left: 40px; }
@@ -109,20 +107,17 @@
   color: #a2a2a2;
   font-size: 16px;
   padding: 10px 0;
-  -webkit-border-radius: 23px;
-          border-radius: 23px;
+  border-radius: 23px;
   outline: none;
   padding-left: 40px; }
 
 .db-submit {
   margin-top: 30px;
-  -webkit-border-radius: 25px !important;
-          border-radius: 25px !important;
+  border-radius: 25px !important;
   outline: none;
   border: none;
   background-color: #4fdadc;
-  -webkit-box-shadow: 0 9px 16px 2px #d6d6d6;
-          box-shadow: 0 9px 16px 2px #d6d6d6;
+  box-shadow: 0 9px 16px 2px #d6d6d6;
   padding: 10px 40px;
   color: white;
   font-family: "Gilroy-ExtraBold";
@@ -135,6 +130,7 @@
   .db-section_view-header {
     padding: 40px 0 !important;
     text-align: unset; }
+
   .db-header-p1:before {
     background: url("../img/db-little.png") no-repeat;
     content: "";
@@ -142,6 +138,7 @@
     height: 16px;
     display: block;
     float: left; }
+
   .db-header-p1 {
     width: unset;
     padding-top: unset;
@@ -154,6 +151,7 @@
       line-height: 18px;
       display: block;
       padding-left: 25px; }
+
   .db-header-p2 {
     padding-top: unset;
     padding-left: 20px;
@@ -171,7 +169,8 @@
       display: inline-block;
       float: right;
       padding-top: 5px; } }
-
 @media only screen and (min-width: 1248px) {
   .db-header-p2 {
     padding-left: 100px; } }
+
+/*# sourceMappingURL=style-db.css.map */

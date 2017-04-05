@@ -13,8 +13,8 @@
 								<div id="DateCountdown" data-timer="9000"></div>						
 							<!-- end time -->
 
-							<form action="" class="js-submit" method="post">
-								<input type="text" name="uname" required="true" placeholder="Ваше имя" class="dfheadbot_nameinp dfheadbot_nameinp__view">
+							<form action="#" class="js-submit" method="post">
+								<input type="text" name="uname" required placeholder="Ваше имя" class="dfheadbot_nameinp dfheadbot_nameinp__view">
 								<input type="tel" name="phone" placeholder="Ваш телефон" class="js-phone dfheadbot_telinp dfheadbot_telinp__view">
 								<input type="submit" value="ОТПРАВИТЬ" class="dfheadbot_submitinp dfheadbot_submitinp__view">
 							</form>

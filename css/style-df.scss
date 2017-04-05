@@ -2,9 +2,14 @@
 	clear: both;
 }
 
+html, body{
+	background:-webkit-linear-gradient(bottom, #f4f4f4, #fbfbfb);
+	background:linear-gradient(to top, #f4f4f4, #fbfbfb);
+}
 
 .dfsection_padding{
 	padding: 30px 0 30px;
+	background-color: #fff;
 }
 .dfsale__view{
 	max-width: 1070px;
