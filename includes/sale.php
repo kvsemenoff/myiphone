@@ -8,7 +8,7 @@
 					<div class="item">
 						<div class="dfsale_boxtel dfsale_boxtel__view">
 							<div class="dfsale_img dfsale_img__view">
-								<img src="img/iphone1.png" alt="">
+								<a href=""><img src="img/iphone1.png" alt=""></a>
 							</div>
 							<span class="dfborder dfborder__view"></span>
 							<span class="dfsale_name dfsale_name__view">Iphone 5s 16Gb</span>
@@ -17,7 +17,7 @@
 					<div class="item">
 						<div class="dfsale_boxtel dfsale_boxtel__view">
 							<div class="dfsale_img dfsale_img__view">
-								<img src="img/iphone1.png" alt="">
+								<a href=""><img src="img/iphone1.png" alt=""></a>
 							</div>
 							<span class="dfborder dfborder__view"></span>
 							<span class="dfsale_name dfsale_name__view">Iphone 5s 16Gb</span>
@@ -26,7 +26,7 @@
 					<div class="item">
 						<div class="dfsale_boxtel dfsale_boxtel__view">
 							<div class="dfsale_img dfsale_img__view">
-								<img src="img/iphone2.png" alt="">
+								<a href=""><img src="img/iphone2.png" alt=""></a>
 							</div>
 							<span class="dfborder dfborder__view"></span>
 							<span class="dfsale_name dfsale_name__view">Iphone 5s 16Gb</span>
@@ -35,7 +35,7 @@
 					<div class="item">
 						<div class="dfsale_boxtel dfsale_boxtel__view dfsale_boxtel__lastitem">
 							<div class="dfsale_img dfsale_img__view">
-								<img src="img/iphone2.png" alt="">
+								<a href=""><img src="img/iphone2.png" alt=""></a>
 							</div>
 							<span class="dfborder dfborder__view"></span>
 							<span class="dfsale_name dfsale_name__view">Iphone 5s 16Gb</span>
