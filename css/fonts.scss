@@ -1,7 +1,14 @@
 @font-face {
-  font-family: "OpenSans-Bold";
-  src: url("../fonts/OpenSans-Bold/OpenSans-Bold.eot");
-  src: local("☺"), url("../fonts/OpenSans-Bold/OpenSans-Bold.woff") format("woff"), url("../fonts/OpenSans-Bold/OpenSans-Bold.ttf") format("truetype"), url("../fonts/OpenSans-Bold/OpenSans-Bold.svg") format("svg");
+  font-family: "Gilroy-Light";
+  src: url("../fonts/Gilroy-Light/Gilroy-Light.eot");
+  src: local("☺"), url("../fonts/Gilroy-Light/Gilroy-Light.woff") format("woff"), url("../fonts/Gilroy-Light/Gilroy-Light.ttf") format("truetype"), url("../fonts/Gilroy-Light/Gilroy-Light.svg") format("svg");
   font-weight: normal;
-  font-style: normal; 
-}
+  font-style: normal; }
+
+@font-face {
+  font-family: "Gilroy-ExtraBold";
+  src: url("../fonts/Gilroy-ExtraBold/Gilroy-ExtraBold.eot");
+  src: local("☺"), url("../fonts/Gilroy-ExtraBold/Gilroy-ExtraBold.woff") format("woff"), url("../fonts/Gilroy-ExtraBold/Gilroy-ExtraBold.ttf") format("truetype"), url("../fonts/Gilroy-ExtraBold/Gilroy-ExtraBold.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+

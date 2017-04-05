@@ -1,4 +1,4 @@
-<section >
+<div id="js-form1" class="js-window">
 	<div class=" container">
 
 		<div class="row">
@@ -32,11 +32,13 @@
 								<input class="dd-name" type="text" name="uname" placeholder="Ваше имя">
 							</div>
 							<div class="dd-inputs">
-								<input class="phone dd-phone" type="text" name="phone" placeholder="Ваше телефон">
+								<input class="js-phone dd-phone" type="text" name="phone" placeholder="Ваше телефон">
 							</div>
 							<div class="dd-inputs">
 								<input class="dd-but" type="submit" value="Заказать">
 							</div>
+							<input type="hidden" name="namephone" value="">
+							<input type="hidden" name="price" value="">
 						</form>
 
 					</div>
@@ -47,4 +49,5 @@
 		</div>
 
 	</div>
-</section>
+
+</div>
