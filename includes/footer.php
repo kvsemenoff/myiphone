@@ -3,7 +3,7 @@
 
 		<div class="row"> -->
 			<!-- <div class="col-md-6 padding_no"> -->
-			<div class="padding_no">
+			<div class="padding_no fl-left">
 				<div class="dd-left">
 					<span>Выберите свой <br>подарок</span>
 
@@ -24,7 +24,7 @@
 				<!-- <img class="img-responsive" src="img/bl2.jpg" alt=""> -->
 			</div>
 			<!-- <div class="col-md-6 padding_no_2"> -->
-			<div class="padding_no_2">
+			<div class="padding_no_2 fl-left">
 				<div class="dd-right">
 
 					<div class="dd-form">
