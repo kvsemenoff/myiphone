@@ -11,7 +11,7 @@
 <script src="js/jquery.maskedinput.min.js"></script>
 
 <script src="js/TimeCircles.js"></script>
-<script src="js/scripts.js"></script>
+<script src="js/common.js"></script>
 <script>
 	$(document).ready(function() {
 		$("head").append("<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800' rel='stylesheet'>");
