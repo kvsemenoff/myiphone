@@ -13,11 +13,11 @@ $(document).ready(function(){
         winW = $(window).width(),
         winH = $(window).height();
         
-        // var  $this = $(this),
-        // $namephone = $this.parents('.dftelephoneblock').find('.dfactivelink').html(),
-        // $price = $this.parents('.dftelephoneblock').find('.dfbigprice').html();
-        // $('input[name="namephone"]').val($namephone);
-        // $('input[name="price"]').val($price);
+        var  $this = $(this),
+        $namephone = $this.parents('.dfheadbot_telbox').find('.dfheadbot_name').html(),
+        $price = $this.parents('.dfheadbot_telbox').find('.dfheadbot_newpricetxt b').html();
+        $('input[name="namephone"]').val($namephone);
+        $('input[name="price"]').val($price);
 
         $(id).css("left", winW/2-$(id).width()/2);
         $(id).css("top", winH/2-$(id).height()/2);

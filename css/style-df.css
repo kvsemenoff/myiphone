@@ -115,7 +115,8 @@
   font-size: 14px;
   font-weight: 700;
   background-color: #68bbd0;
-  border-radius: 35px;
+  -webkit-border-radius: 35px;
+          border-radius: 35px;
   padding: 12px 20px;
   border: none;
   background-color: none;
@@ -186,9 +187,9 @@
   background-position: top center;
   background-size: cover;
   -webkit-box-shadow: 0px 3px 20px -2px rgba(0, 0, 0, 0.39);
-  -moz-box-shadow: 0px 3px 20px -2px rgba(0, 0, 0, 0.39);
   box-shadow: 0px 3px 20px -2px rgba(0, 0, 0, 0.39);
-  border-radius: 13px;
+  -webkit-border-radius: 13px;
+          border-radius: 13px;
   position: relative; }
 
 .dfheadbot_img__view {
@@ -253,7 +254,8 @@
   font-weight: 700;
   text-transform: uppercase;
   background-color: #57daed;
-  border-radius: 18px;
+  -webkit-border-radius: 18px;
+          border-radius: 18px;
   padding: 12px 0px;
   display: block;
   width: 125px;
@@ -320,13 +322,12 @@
 @media only screen and (min-width: 320px) {
   .dfheadbot_absolut__view {
     left: 35px; } }
+
 @media only screen and (min-width: 992px) {
   .dfsection_padding {
     padding: 70px 0 90px; }
-
   .dfsale_caption__view {
     margin-bottom: 45px; }
-
   .dfsale_boxtel__view {
     margin-bottom: 0px; }
     .dfsale_boxtel__view:after {
@@ -337,7 +338,6 @@
       border-right: 1px solid #ececec;
       width: 1px;
       height: 180px; }
-
   .dfsale_boxtel__view:last-child:after {
     position: unset;
     top: 0px;
@@ -345,24 +345,18 @@
     border: none;
     width: 0px;
     height: 0px; }
-
   /*========headerbot*/
   .dfheadbot_leftbox__view {
     display: inline-block; }
-
   .dfheadbot_rightbox__view {
     margin-left: 73px;
     text-align: left; }
-
   .dfheadbot_telbox__mr {
     margin-right: 111px;
     margin-bottom: 0; }
-
   .dfheadbot_orcall__view {
     position: absolute;
     bottom: -68px;
     left: 31%;
     z-index: 10;
     margin: 0 auto; } }
-
-/*# sourceMappingURL=style-df.css.map */
