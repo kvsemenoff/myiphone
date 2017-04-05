@@ -24,7 +24,7 @@ $(document).ready(function(){
 
         $(id).css("left", winW/2-$(id).width()/2);
         $(id).css("top", winH/2-$(id).height()/2);
-        // $('body').css("overflow-y", "hidden");
+        $('body').css("overflow-y", "hidden");
         $(id).fadeIn();
         $('#js-mask').fadeIn();
     });

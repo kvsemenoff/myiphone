@@ -55,10 +55,20 @@
   top: 0;
   left: 0;
   background: #fff;
-  padding: 10px;
   text-align: center;
   display: none;
-  max-width: 1076px; }
+  max-width: 1076px;
+  overflow-y: scroll;
+  overflow-x: hidden; }
+
+#js-form1::-webkit-scrollbar {
+  width: 0; }
+
+#js-form1 {
+  -ms-overflow-style: none; }
+
+#js-form1 {
+  overflow: -moz-scrollbars-none; }
 
 #js-form2 {
   z-index: 1000;
